@@ -1,4 +1,4 @@
-package basics.inputoutput;
+package basics.io;
 
 public class BasicOutput {
     public static void main(String[] args) {
