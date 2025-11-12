@@ -20,6 +20,9 @@ public class OperatorsPractice2 {
         int i1 = 1, i2 = 2, i3 = 3; float i4 = i1 + (i2=i3 ); System.out.println((int)i4);
 
         boolean var = (premisa1() & premisa2());
+
+        boolean var2 = true || true && false;
+        System.out.println(var2);
     }
 
     public static void main2(String[] args){
@@ -51,6 +54,7 @@ public class OperatorsPractice2 {
         return true;
     }
 
+    public static void main3(String args[ ] ){       int i, j, k;       i = j = k = 9;       System.out.println(i);    }
 
 
 }
