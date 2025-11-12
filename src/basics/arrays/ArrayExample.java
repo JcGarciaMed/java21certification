@@ -6,7 +6,7 @@ public class ArrayExample {
     public static void main(String[] args) {
 
         int[] numberArray;
-        numberArray = new int[10];
+        numberArray = new int[] {1,2,23,13};
 
         char charArray[] = new char[195];
 
