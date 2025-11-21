@@ -37,5 +37,26 @@ public class Practice {
         ej.doSomething();
         ej.doSomething();
         ej.doSomething();
+
+        int firstTen[];
+        int[] secondTen;
+        secondTen= new int[10];
+        firstTen=new int[] {1,2,3};
+
+        for(int i=0;i<secondTen.length;i++){
+            System.out.println(secondTen[i]);
+        }
+
+        System.out.println(firstTen);
+        System.out.println(Arrays.toString(firstTen));
+
+        Object[] objectArray = new Object[3];
+        objectArray[0] = new int[] {1,2,3};
+        objectArray[1] = "SecondElement";
+        objectArray[2] = 12.45 * 10;
+
+        System.out.println(
+                Arrays.toString(objectArray)
+        );
     }
 }
