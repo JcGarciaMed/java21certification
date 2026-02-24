@@ -56,6 +56,7 @@ public class Team<T extends Player, S> {
         if (ourScore > theirScore) {
             totalWins++;
             message = "beat";
+
         } else if (ourScore == theirScore) {
             totalTies++;
             message = "tied";
